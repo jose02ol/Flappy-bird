@@ -4,6 +4,7 @@ public class PlayerCollisionManager : MonoBehaviour
 {
     public void ProcessHit()
     {
+
         LevelController levelController = FindAnyObjectByType<LevelController>();
         levelController.TriggerReloadLevel();
     }

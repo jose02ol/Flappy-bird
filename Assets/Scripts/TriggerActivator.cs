@@ -6,7 +6,7 @@ public class TriggerActivator : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Calico")
+        if (other.gameObject.tag == "Luffy")
         {
             if (target)
             {

@@ -6,7 +6,7 @@ public class Collectible : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Calico")
+        if (other.gameObject.tag == "Luffy")
         {
             ScoreBoardManager ScoreBoardManager =
                 FindAnyObjectByType<ScoreBoardManager>();
